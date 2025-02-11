@@ -9,5 +9,5 @@ app.use(express.json());
 registerWithServer();
 
 app.listen(port, () => {
-    console.log(`virald node running on port ${port}`);
+  console.log(`virald node running on port ${port}`);
 });
